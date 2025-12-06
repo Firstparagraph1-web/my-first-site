@@ -71,9 +71,11 @@ Gecələr daim aktivdirlər. Ona görə də əsasən həyət və bağ evində ya
     if(sw==0) {
       pic="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWw4yjTXb8gZYAtOUlhDI6pHaD9vXqTk1gOBdsRHtEQ037j5S8-Aua0AM&s=10"
     } 
-    else {
+    else (sw==1) {
       pic="https://i.pinimg.com/736x/b6/03/f3/b603f3794cbb1eb0437f60e8e18f265f.jpg"
     }
+      else {
+        pic="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6FT-CSy35jVizf3zoF82ZePUhz8nRIM4363l6B80ylwVkJN-GJgyAyo&s=10"
     document.getElementById('myImage').src=pic;
     }
   </script>
@@ -84,6 +86,8 @@ Gecələr daim aktivdirlər. Ona görə də əsasən həyət və bağ evində ya
      onclick="rabbit(1)">picture1  </button>
      <button type="button"
       onclick="rabbit(0)"> picture2 </button>
+     <button type="button"
+      onclick="rabbit(2)"> picture3 </button>
    </p>
 </body>
 </html>
