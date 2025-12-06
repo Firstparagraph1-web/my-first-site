@@ -65,5 +65,25 @@ Gecələr daim aktivdirlər. Ona görə də əsasən həyət və bağ evində ya
   <p>Angora dovşanı - <span class="note">8-12 il </span></p>
   <p>Flemish Giant dovşanı - <span class="note">5-8 il </span></p>
   <p>Lionhead dovşanı - <span class="note">7-10 il </span></p>
+  <script>
+    function rabbit(sw) {
+    var pic;
+    if(sw==0) {
+      pic="https://i.pinimg.com/564x/82/76/33/827633ba88647191c8e917a70150e6f2.jpg"
+    } 
+    else {
+      pic="https://img.fruugo.com/product/3/57/94323573_max.jpg"
+    }
+    document.getElementById('myImage').src=pic;
+    }
+  </script>
+<img id="myImage src="https://i.pinimg.com/564x/82/76/33/827633ba88647191c8e917a70150e6f2.jpg"
+ width="100" height="180">
+   <p>
+   <button type="button"
+     onclick="rabbit(1)">picture1  </button>
+     <button type="button"
+      onclick="rabbit(0)"> picture2 </button>
+   </p>
 </body>
 </html>
